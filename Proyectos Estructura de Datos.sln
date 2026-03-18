@@ -31,6 +31,24 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionSort", "SelectionS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionSort", "InsertionSort\InsertionSort.csproj", "{73DA5AAB-6CAB-4E0A-B160-8814C6D86DA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verificar asistencia en lista", "Búsqueda Secuencial\Verificar asistencia en lista.csproj", "{65D412E1-BC43-4BCC-B79F-DFC4501F5A81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Revisar si un producto está agotado", "Revisar si un producto está agotado\Revisar si un producto está agotado.csproj", "{96994635-0314-4618-BB56-F20912294B4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buscar calificación específica", "Buscar calificación específica\Buscar calificación específica.csproj", "{8C571725-0751-42A5-8F01-C2BB45773BEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validación de código de descuento", "Validación de código de descuento\Validación de código de descuento.csproj", "{F0AACB15-7270-404B-BFA8-4D52768180A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verificar existencia de un cliente en registro masivo", "Verificar existencia de un cliente en registro masivo\Verificar existencia de un cliente en registro masivo.csproj", "{527EF020-01BB-41E4-8BF6-EBE021AFD236}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Busqueda Secuencial", "Busqueda Secuencial", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Busqueda Binaria", "Busqueda Binaria", "{14F40553-ED4D-482C-8493-160300E00D08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Busqueda Externa", "Busqueda Externa", "{0E3F576B-0287-479C-BCAE-18D65B5058E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algoritmos de Organizacion", "Algoritmos de Organizacion", "{0112DC0C-6E81-4794-BE5B-10A53003BA35}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,9 +111,39 @@ Global
 		{73DA5AAB-6CAB-4E0A-B160-8814C6D86DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73DA5AAB-6CAB-4E0A-B160-8814C6D86DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73DA5AAB-6CAB-4E0A-B160-8814C6D86DA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D412E1-BC43-4BCC-B79F-DFC4501F5A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D412E1-BC43-4BCC-B79F-DFC4501F5A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D412E1-BC43-4BCC-B79F-DFC4501F5A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D412E1-BC43-4BCC-B79F-DFC4501F5A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96994635-0314-4618-BB56-F20912294B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96994635-0314-4618-BB56-F20912294B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96994635-0314-4618-BB56-F20912294B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96994635-0314-4618-BB56-F20912294B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C571725-0751-42A5-8F01-C2BB45773BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C571725-0751-42A5-8F01-C2BB45773BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C571725-0751-42A5-8F01-C2BB45773BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C571725-0751-42A5-8F01-C2BB45773BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0AACB15-7270-404B-BFA8-4D52768180A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0AACB15-7270-404B-BFA8-4D52768180A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0AACB15-7270-404B-BFA8-4D52768180A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0AACB15-7270-404B-BFA8-4D52768180A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{527EF020-01BB-41E4-8BF6-EBE021AFD236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{527EF020-01BB-41E4-8BF6-EBE021AFD236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{527EF020-01BB-41E4-8BF6-EBE021AFD236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{527EF020-01BB-41E4-8BF6-EBE021AFD236}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E0F96D9-5B46-4BB6-BCAC-26FA0368F447} = {0112DC0C-6E81-4794-BE5B-10A53003BA35}
+		{FE957461-CA55-4C5C-B7CC-2551ACA595C0} = {0112DC0C-6E81-4794-BE5B-10A53003BA35}
+		{73DA5AAB-6CAB-4E0A-B160-8814C6D86DA8} = {0112DC0C-6E81-4794-BE5B-10A53003BA35}
+		{65D412E1-BC43-4BCC-B79F-DFC4501F5A81} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{96994635-0314-4618-BB56-F20912294B4A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{8C571725-0751-42A5-8F01-C2BB45773BEA} = {14F40553-ED4D-482C-8493-160300E00D08}
+		{F0AACB15-7270-404B-BFA8-4D52768180A6} = {14F40553-ED4D-482C-8493-160300E00D08}
+		{527EF020-01BB-41E4-8BF6-EBE021AFD236} = {0E3F576B-0287-479C-BCAE-18D65B5058E3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {654C8942-55DE-408B-B096-CA59D178E286}
