@@ -55,6 +55,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Navegación en un navegador
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atención de clientes en un banco", "Atención de clientes en un banco\Atención de clientes en un banco.csproj", "{448B2F7D-8382-4782-BFC0-FCA8A7B685AC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Agenda de Contactos", "Agenda de Contactos", "{599F2E5A-9BFB-45EC-A945-4C26F9FDDC20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaContactosDinamicos", "AgendaContactosDinamicos\AgendaContactosDinamicos.csproj", "{D4AA66CD-17BE-4965-B87F-CD5B8F5B2110}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -145,6 +149,10 @@ Global
 		{448B2F7D-8382-4782-BFC0-FCA8A7B685AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{448B2F7D-8382-4782-BFC0-FCA8A7B685AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{448B2F7D-8382-4782-BFC0-FCA8A7B685AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4AA66CD-17BE-4965-B87F-CD5B8F5B2110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4AA66CD-17BE-4965-B87F-CD5B8F5B2110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4AA66CD-17BE-4965-B87F-CD5B8F5B2110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4AA66CD-17BE-4965-B87F-CD5B8F5B2110}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -160,6 +168,7 @@ Global
 		{527EF020-01BB-41E4-8BF6-EBE021AFD236} = {0E3F576B-0287-479C-BCAE-18D65B5058E3}
 		{70375BDE-4F08-4DDF-8F77-08D693CC1C69} = {DA76FA4B-11CB-4A29-9F57-622891A16A2F}
 		{448B2F7D-8382-4782-BFC0-FCA8A7B685AC} = {DA76FA4B-11CB-4A29-9F57-622891A16A2F}
+		{D4AA66CD-17BE-4965-B87F-CD5B8F5B2110} = {599F2E5A-9BFB-45EC-A945-4C26F9FDDC20}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {654C8942-55DE-408B-B096-CA59D178E286}
